@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600i,900');
+
+body{
+	background-color: #eeeeee;
+}
+
+.ba-container{
+	width: 1200px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.ba-section {
+	margin: 50px 0 90px;
+}
+.ba-header {
+	font-family: 'Roboto', sans-serif;
+	color: #303030;
+	padding-top: 50px;
+
+}
+.ba-header a {
+	font-size: 48px;
+	font-weight: 700;
+}
+.ba-header__nav{
+	float: right;
+}
+.ba-header__nav ul{
+	list-style: none;
+}
+.ba-header__nav ul li{
+	float: left;
+}
+.ba-header__nav ul li a{
+	font-weight: 400;
+	font-size: 18px;
+	text-decoration: none;
+	display: block;
+	color: #303030;
+	margin: 5px 0 40px 50px;
+}
+.ba-header__nav li a::after {
+	content: '';
+	background-color: #303030;
+	position: absolute;
+	display: inline-block;
+	width: 15px;
+	height: 2px;
+
+}
+/* .ba-black__white {
+	width: 100%;
+} */
+.ba-black__white img {
+	/* display: block; */
+	float: right;
+	margin: 0 100px 0 20px;
+
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&1+63,0+100 */
+background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%, rgba(255,255,255,1) 63%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 63%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 63%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	width: 395px;
+}
+.ba-black__white__text {
+	text-align: right;
+	float: left;
+	width: 615px;
+}
+
+.ba-black__white__text h1{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 900;
+	font-size: 150px;
+	text-transform: uppercase;
+	line-height: 150px;
+	margin-top: -5px;
+	margin-bottom: -20px;
+	color: #303030;
+
+}
+.ba-black__white__text p a {
+	font-family: 'Roboto', sans-serif;
+	color: #303030;
+	font-size: 24px;
+}
+.ba-black__white__text p{
+	font-weight: 300;
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+.ba-black__white__text a {
+	text-decoration: none;
+	color: red;
+	font-weight: 700;
+}
+.ba-thumbnails {
+	width: 500px;
+	height: 20px;
+	background-color: red;
+
+}
