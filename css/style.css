@@ -6,13 +6,14 @@ body{
 }
 
 .ba-container{
-	width: 1200px;
+	max-width: 1200px;
 	padding-left: 15px;
 	padding-right: 15px;
 }
 .ba-section {
-	margin: 50px 0 90px;
-}
+
+	}
+
 .ba-header {
 	font-family: 'Roboto', sans-serif;
 	color: #303030;
@@ -40,37 +41,23 @@ body{
 	color: #303030;
 	margin: 5px 0 40px 50px;
 }
-.ba-header__nav li a::after {
-	content: '';
-	background-color: #303030;
-	position: absolute;
-	display: inline-block;
-	width: 15px;
-	height: 2px;
-
+.ba-black__white{
+margin: 50px 0 90px;
 }
-/* .ba-black__white {
-	width: 100%;
-} */
+
+
 .ba-black__white img {
-	/* display: block; */
 	float: right;
 	margin: 0 100px 0 20px;
-
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&1+63,0+100 */
-background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%, rgba(255,255,255,1) 63%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
-background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 63%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
-background: radial-gradient(ellipse at center,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 63%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-	width: 395px;
 }
+
 .ba-black__white__text {
 	text-align: right;
 	float: left;
 	width: 615px;
 }
 
-.ba-black__white__text h1{
+.ba-black__white__text h1 {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 900;
 	font-size: 150px;
@@ -81,24 +68,60 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	color: #303030;
 
 }
-.ba-black__white__text p a {
-	font-family: 'Roboto', sans-serif;
-	color: #303030;
-	font-size: 24px;
-}
+
 .ba-black__white__text p{
 	font-weight: 300;
 	padding-top: 50px;
 	padding-bottom: 30px;
+}
+.ba-black__white__text p a {
+	font-family: 'Roboto', sans-serif;
+	color: #303030;
+	font-size: 24px;
 }
 .ba-black__white__text a {
 	text-decoration: none;
 	color: red;
 	font-weight: 700;
 }
-.ba-thumbnails {
-	width: 500px;
+.ba-sliders {
+	width: 20px;
 	height: 20px;
 	background-color: red;
+	border-radius: 50%;
 
 }
+.featured-products {
+	background-color: #FFF;
+	display: block;
+	padding: 54px 70px 70px 70px;
+}
+.featured-products__header{
+	font-family: 'Raleway', sans-serif;
+	font-size: 48px;
+	text-align: center;
+
+}
+.featured-products__header span {
+	display: block;
+	width: 585px;
+	margin: 0 auto;
+}
+
+.featured-products__header span p{
+	font-size: 18px;
+}
+
+.feature_products__items {
+
+	display: block;
+	border-radius: 8px;
+	overflow: hidden;
+	position: relative;
+}
+
+.feature_products__items img {
+	border-radius: 8px;
+	width: 100%;
+}
+
