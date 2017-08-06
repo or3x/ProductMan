@@ -135,11 +135,11 @@ body, html {
 
 .ba-row > [class*="ba-width-"] {
     float: left;
-    padding-left: 20px;
+    // padding-left: 20px;
 }
 
 .ba-row {
-    margin-left: -20px;
+    margin-left: 0;
 }
 
 
